@@ -4602,9 +4602,6 @@ public final class BookHelper {
 		//assign cell formats
 		dstCell.setCellStyle(srcCell.getCellStyle());
 		
-		//assign comment
-		dstCell.setCellComment(srcCell.getCellComment());
-		
 		//assign validation
 		// TODO assign validation, refer copyValidation(srcCell, dstCell);
 		
